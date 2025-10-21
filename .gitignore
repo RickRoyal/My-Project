@@ -1,0 +1,23 @@
+# Ignore everything in home directory
+../*
+
+# Allow only project files
+!README.md
+!index.html
+!home.sql
+
+
+# Ignore system and IDE files
+.DS_Store
+.vscode/
+*.log
+*.tar
+*.zip
+*.AppImage
+*.deb
+*.tgz
+*.gz
+.cache/
+.config/
+.local/
+
